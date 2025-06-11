@@ -1,0 +1,216 @@
+[
+
+        {
+            "name": "CHOKI CHOKI",
+            "price": 2.00,
+            "image": "chokichoki.png",
+            "links": "chokichoki.html",
+            "description": "Snacks"
+        },
+        {
+            "name": "NABATI",
+            "price": 2.00,
+            "image": "nabati.png",
+            "links": "nabati.html",
+            "description": "Snacks"
+        },
+        {
+            "name": "TOFILUK",
+            "price": 1.00,
+            "image": "tofiluk.png",
+            "links": "tofiluk.html",
+            "description": "Snacks"
+        },
+        {
+            "name": "CORNTOZ SMOKY BBQ",
+            "price": 2.50,
+            "image": "corntoz1.png",
+            "links": "corntoz1.html",
+            "description": "Snacks"
+        },
+        {
+            "name": "CORNTOZ HOT & SPICY",
+            "price": 2.50,
+            "image": "corntoz2.png",
+            "links": "corntoz2.html",
+            "description": "Snacks"
+        },
+        {
+            "name": "CORNTOZ CHILLI CHEEZ",
+            "price": 2.50,
+            "image": "corntoz3.png",
+            "links": "corntoz3.html",
+            "description": "Snacks"
+        },
+
+        {
+            "name": "MAGGI KARI",
+            "price": 2.00,
+            "image": "maggi1.png",
+            "links": "maggi1.html",
+            "description": "Instant Mee"
+        },
+
+        {
+            "name": "MAGGI AYAM",
+            "price": 2.00,
+            "image": "maggi2.png",
+            "links": "maggi2.html",
+            "description": "Instant Mee"
+        },
+        
+        {
+            "name": "MAGGI TOMYAM",
+            "price": 2.00,
+            "image": "maggi3.png",
+            "links": "maggi3.html",
+            "description": "Instant Mee"
+        },
+        {
+            "name": "TELUR",
+            "price": 1.00,
+            "image": "telur.png",
+            "links": "telur.html",
+            "description": "Miscellaneous"
+        },
+        {
+            "name": "BUBUR AYAM",
+            "price": 2.00,
+            "image": "bubur1.png",
+            "links": "bubur1.html",
+            "description": "Miscellaneous"
+        },
+        {
+            "name": "BUBUR CENDAWAN",
+            "price": 2.00,
+            "image": "bubur2.png",
+            "links": "bubur2.html",
+            "description": "Miscellaneous"
+        },
+        {
+            "name": "SAMYANG CHEESE",
+            "price": 6.00,
+            "image": "samyang1.png",
+            "links": "samyang1.html",
+            "description": "Instant Mee"
+        },
+        {
+            "name": "SAMYANG CARBONARA",
+            "price": 6.00,
+            "image": "samyang2.png",
+            "links": "samyang2.html",
+            "description": "Instant Mee"
+        },
+        {
+            "name": "SAMYANG ORIGINAL",
+            "price": 6.00,
+            "image": "samyang3.png",
+            "links": "samyang3.html",
+            "description": "Instant Mee"
+        },
+        {
+            "name": "BISKUT TIGER",
+            "price": 2.00,
+            "image": "biskut.png",
+            "links": "biskut.html",
+            "description": "Snacks"
+        },
+        {
+            "name": "SUPER RING",
+            "price": 2.00,
+            "image": "superring.png",
+            "links": "superring.html",
+            "description": "Snacks"
+        },
+        {
+            "name": "MINERAL",
+            "price": 1.00,
+            "image": "MINERAL.png",
+            "links": "MINERAL.html",
+            "description": "Beverages"
+        },      
+        {
+            "name": "SEASONS TEH BUNGA",
+            "price": 1.50,
+            "image": "season1.png",
+            "links": "season1.html",
+            "description": "Beverages"
+        },
+        {
+            "name": "SEASONS LEMON AIS",
+            "price": 1.50,
+            "image": "season2.png",
+            "links": "season2.html",
+            "description": "Beverages"
+        },
+        {
+            "name": "SEASONS SUSU SOYA",
+            "price": 1.50,
+            "image": "season3.png",
+            "links": "season3.html",
+            "description": "Beverages"
+        },
+        {
+            "name": "YEOGURT APPLE",
+            "price": 2.00,
+            "image": "yeogurt1.png",
+            "links": "yeogurt1.html",
+            "description": "Beverages"
+        },
+        {
+            "name": "YEOGURT ORIGINAL",
+            "price": 2.00,
+            "image": "yeogurt2.png",
+            "links": "yeogurt2.html",
+            "description": "Beverages"
+        },
+        {
+            "name": "YEOGURT ANGGUR",
+            "price": 2.00,
+            "image": "yeogurt3.png",
+            "links": "yeogurt3.html",
+            "description": "Beverages"
+        },
+        {
+            "name": "LATTE",
+            "price": 5.00,
+            "image": "latte.png",
+            "links": "latte.html",
+            "description": "Coffee"
+        },
+        {
+            "name": "MOCHA",
+            "price": 5.00,
+            "image": "mocha.png",
+            "links": "mocha.html",
+            "description": "Coffee"
+        },
+        {
+            "name": "CAPPUCHINO",
+            "price": 5.00,
+            "image": "cappuchino.png",
+            "links": "cappuchino.html",
+            "description": "Coffee"
+        },
+        {
+            "name": "AMERICANO",
+            "price": 4.00,
+            "image": "americano.png",
+            "links": "americano.html",
+            "description": "Coffee"
+        },
+        {
+            "name": "MATCHA",
+            "price": 5.00,
+            "image": "matcha.png",
+            "links": "matcha.html",
+            "description": "Coffee"
+        },
+        {
+            "name": "CARAMEL MACCHIATO",
+            "price": 6.00,
+            "image": "caramelmacc.png",
+            "links": "caramelmacc.html",
+            "description": "Coffee"
+        }
+    ]

@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #003B91;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+}
+
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.search-box input {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  background: linear-gradient(90deg, #9F3CFF, #9AD1FF);
+  flex: 1;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: #003B91;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  transition:transform ease 0.3s;
+}
+
+.card img:hover {
+  transform: scale(1.4);
+}
+
+
+.card a {
+  color: #A4D4FF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #003B91;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.zuhdi {
+  border-radius: 100px;
+  width: 140px;
+  height: 140px;
+  border-bottom: #1d1dc6 solid 10px;
+  border-right: #1d1dc6 solid 10px;
+}
+
+.gambar{
+  position: relative;
+  width: 200px;
+}
+
+.gambar img{
+  width: 140px;
+  height: 140px;
+  display: block;
+}
+
+.gambarzuhdi{
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gambar:hover .gambarzuhdi{
+  opacity: 1;
+}
+
+.ipan {
+  border-radius: 100px;
+  width: 140px;
+  height: 140px;
+  border-bottom: #50362c solid 10px;
+  border-right: #50362c solid 10px;
+}
+
+.hasbol {
+  border-radius: 100px;
+  width: 140px;
+  height: 140px;
+  border-bottom: #22cf62 solid 10px;
+  border-right: #22cf62 solid 10px;
+}
+
+.putera {
+  border-radius: 100px;
+  width: 140px;
+  height: 140px;
+  border-bottom: #aba32c solid 10px;
+  border-right: #aba32c solid 10px;
+}
+
+.footer-left .uni-logo {
+  height: 100%;
+  width: 225px;
+  padding-bottom: 80px;
+}
+
+.footer-right {
+  text-align: right;
+  font-size: 12px;
+}
+
+.promo-title {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.price-strike {
+  text-decoration: line-through;
+  color: #ccc;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.about-section {
+  background: linear-gradient(90deg, #9F3CFF, #9AD1FF);
+  padding: 40px 30px;
+  color: white;
+  min-height: 80vh;
+}
+
+.about-title {
+  color: #ffb3ec;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #27ae60;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+strong {
+  color: #e67e22;
+}
+
+.back-button-wrapper {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.glow-back-btn {
+  padding: 14px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #ff5e99, #00f2fe);
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 0 6px #ff5e99;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glow-back-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #00f2fe;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+  color: #ff5e99;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  font-size: 18px;
+}
+
+h2 .dropdown button {
+  background-color:#00f2fe;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.dropdown button:hover {
+  color:#e67e22;
+}
+
+button:hover{
+  background-color:#003B91;
+}
+
+.dropdown-options {
+  display:none; 
+  position: absolute;
+  top: 100%; /* Pushes the dropdown below the button */
+  background-color:#ffffff;
+  border : 1px solid black;
+  border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
+
+.dropdown-options a {
+  display: block;
+  color :black;
+  padding: 5px;
+  text-decoration: none;
+  padding:20px 40px;
+}
+
+.dropdown-options a:hover {
+  color:#e67e22;
+  background-color:#555;
+  border-radius: 10px;
+}
+.nav-links li {
+  display: flex;
+  align-items: center;
+}
+ h2 .dropdown button img {
+  display :inline;
+  align-items: center;
+  gap : 8px;
+  width: 18px;
+  height: 18px;
+}
+
+.maps {
+  padding-top: 90px;
+  padding-right: 100px;
+  line-height: 1.6;
+  color: #555;
+}
+
+
